@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	
+	
+}
+body{
+    background:#c68c53a9;
+	font-family: 'Architects Daughter', cursive;
+	font-size:24px;
+
+}
+
+.main-container{
+	width:95%;
+	margin:0px auto;
+}
+
+.container-1{
+	margin-left:5%;
+}
+
+.container-2{
+	margin-left:5%;
+	display:flex;
+	justify-content:flex-start;
+	flex-wrap:wrap;
+	margin-top:20px;
+}
+
+.container-3{
+	display:none;
+	position:absolute;
+	top:25%;
+	left:40%;
+	
+}
+
+textarea{
+	overflow:hidden;
+	box-shadow:10px 10px 24px 0px rgba(0,0,0,.75);
+	outline:none;
+	border:none;
+	width:275px;
+	height:275px;
+	padding:40px 20px 20px 20px;
+}
+
+svg{
+	color:gray;
+}
+ #check-icon{
+	 position:absolute;
+	 right:17%;
+	 top:4%;
+ }
+  #cross-icon{
+	 position:absolute;
+	 right:5%;
+	 top:4%;
+ }
+ @media (min-width: 0px) and (max-width: 500px) {
+.container-3 {
+  display: none;
+  position: absolute;
+  top: 19%;
+  left: 17%;
+}
+textarea {
+ 
+  width: 150px;
+  height: 150px;
+ 
+ }
